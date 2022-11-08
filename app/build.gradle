@@ -1,0 +1,5 @@
+apply from: "${rootProject.rootDir}/common.gradle"
+project.ext.setAppDefaultConfig project
+dependencies {
+    implementation 'com.vip:search:1.0.0'
+}

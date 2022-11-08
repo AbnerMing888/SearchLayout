@@ -1,0 +1,3 @@
+rootProject.name = "SearchLayout"
+include ':app'
+include ':search'

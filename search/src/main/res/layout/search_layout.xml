@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/layout_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/view_iv_search"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/view_ic_search" />
+
+        <EditText
+            android:id="@+id/view_et_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/view_iv_delete"
+            android:layout_toRightOf="@id/view_iv_search"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="请输入搜索内容"
+            android:imeOptions="actionSearch"
+            android:maxLines="1"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:textColor="#9C9C9C"
+            android:textCursorDrawable="@drawable/view_shape_line"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:id="@+id/view_iv_delete"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/view_ic_delete"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

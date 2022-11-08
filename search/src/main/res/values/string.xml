@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_hot_tag">热门搜索</string>
+    <string name="search_history_tag">最近搜索</string>
+    <string name="search_history_clear">清除全部</string>
+</resources>

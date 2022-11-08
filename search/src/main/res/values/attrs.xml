@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--搜索框-->
+    <declare-styleable name="SearchLayout">
+        <!--搜索图标-->
+        <attr name="search_icon" format="reference" />
+        <!--搜索图标的宽-->
+        <attr name="search_icon_width" format="dimension" />
+        <!--搜索图标的高-->
+        <attr name="search_icon_height" format="dimension" />
+        <!--搜索图标距离左边的距离-->
+        <attr name="search_icon_left" format="dimension" />
+        <!--搜索删除图标-->
+        <attr name="search_icon_delete" format="reference" />
+        <!--搜索删除图标的宽-->
+        <attr name="search_icon_delete_width" format="dimension" />
+        <!--搜索删除图标的高-->
+        <attr name="search_icon_delete_height" format="dimension" />
+        <!--搜索删除图标距离右边的距离-->
+        <attr name="search_icon_delete_right" format="dimension" />
+        <!--搜索框占位字符-->
+        <attr name="search_hint" format="string" />
+        <!--搜索框占位字符颜色-->
+        <attr name="search_hint_color" format="color" />
+        <!--搜索框文字颜色-->
+        <attr name="search_color" format="color" />
+        <!--搜索框文字大小-->
+        <attr name="search_size" format="dimension" />
+        <!--搜索框光标-->
+        <attr name="search_text_cursor" format="reference" />
+        <!--整个搜索框背景-->
+        <attr name="search_bg" format="reference" />
+
+    </declare-styleable>
+
+    <!--搜索框下面的搜索列表-->
+    <declare-styleable name="SearchList">
+        <!--热门搜索列表样式，是网格还是流式布局-->
+        <attr name="is_hot_flex_box_or_grid" format="boolean" />
+        <!--热门搜索列表样式，内容是否居中-->
+        <attr name="is_hot_center" format="boolean" />
+        <!--热门搜索列表样式，如果是网格布局，条目列数，默认2-->
+        <attr name="hot_grid_span_count" format="integer" />
+        <!--热门搜索列表 item距离上边的距离-->
+        <attr name="hot_item_top_margin" format="integer" />
+        <!--热门搜索列表 item 文字颜色-->
+        <attr name="hot_item_color" format="color" />
+        <!--热门搜索列表 item 文字大小-->
+        <attr name="hot_item_size" format="dimension" />
+        <!--热门搜索列表 item 文字展示几行-->
+        <attr name="hot_item_line" format="integer" />
+        <!--热门搜索列表 item 背景-->
+        <attr name="hot_item_bg" format="reference" />
+        <!--热门搜索列表 item 距离上边的距离-->
+        <attr name="hot_item_margin_top" format="reference" />
+        <!--热门搜索列表 内边距，左-->
+        <attr name="hot_padding_left" format="dimension" />
+        <!--热门搜索列表 内边距，上-->
+        <attr name="hot_padding_top" format="dimension" />
+        <!--热门搜索列表 内边距，右-->
+        <attr name="hot_padding_right" format="dimension" />
+        <!--热门搜索列表 内边距，下-->
+        <attr name="hot_padding_bottom" format="dimension" />
+
+        <!--历史搜索列表样式，是网格还是流式布局-->
+        <attr name="is_history_flex_box_or_grid" format="boolean" />
+        <!--历史搜索列表，最多展示几个item，默认10-->
+        <attr name="history_flex_box_count" format="integer" />
+        <!--历史搜索列表样式，内容是否居中-->
+        <attr name="is_history_center" format="boolean" />
+        <!--历史搜索列表样式，如果是网格布局，条目列数，默认2-->
+        <attr name="history_grid_span_count" format="integer" />
+        <!--历史搜索列表 item距离上边的距离-->
+        <attr name="history_item_top_margin" format="integer" />
+        <!--历史搜索列表 item 文字颜色-->
+        <attr name="history_item_color" format="color" />
+        <!--历史搜索列表 item 文字大小-->
+        <attr name="history_item_size" format="dimension" />
+        <!--历史搜索列表 item 距离上边的距离-->
+        <attr name="history_item_margin_top" format="dimension" />
+
+        <!--历史搜索右边是否展示删除小按钮-->
+        <attr name="is_visibility_history_clear" format="boolean" />
+        <!--历史搜索右边的删除小按钮-->
+        <attr name="history_clear_icon" format="reference" />
+        <!--历史搜索右边的删除文字-->
+        <attr name="history_clear_text" format="string" />
+        <!--历史搜索右边的删除文字大小-->
+        <attr name="history_clear_size" format="dimension" />
+        <!--历史搜索右边的删除文字颜色-->
+        <attr name="history_clear_color" format="color" />
+
+        <!--历史搜索列表 内边距，左-->
+        <attr name="history_padding_left" format="dimension" />
+        <!--历史搜索列表 内边距，上-->
+        <attr name="history_padding_top" format="dimension" />
+        <!--历史搜索列表 内边距，右-->
+        <attr name="history_padding_right" format="dimension" />
+        <!--历史搜索列表 内边距，下-->
+        <attr name="history_padding_bottom" format="dimension" />
+
+
+    </declare-styleable>
+
+
+</resources>
