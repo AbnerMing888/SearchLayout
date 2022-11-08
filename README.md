@@ -3,7 +3,7 @@
 
 #### 效果图图
 
-<img src="images/device-search.png" width="400px" />
+<img src="images/device-search.png" width="300px" />
 
 ## 快速使用
 
