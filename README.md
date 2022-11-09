@@ -5,6 +5,10 @@
 
 <img src="images/device-search.png" width="300px" />
 
+#### 属性，方法等相关介绍，可点击下方链接直达
+
+[点击直达](https://juejin.cn/post/7163844676556947464)
+
 ## 快速使用
 
 1、在你的根项目下的build.gradle文件下，引入maven。
